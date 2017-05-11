@@ -2,7 +2,7 @@
 
 This is a sample project that represents the modular folder structure of angular application with bundle analyzer build in
 
-## Project structure
+## Modules structure
 
  app  
    ├───components  
