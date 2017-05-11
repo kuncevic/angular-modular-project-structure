@@ -24,7 +24,7 @@ This is a sample project that represents the modular folder structure of angular
 `shared` - constants shared module <a href="https://angular.io/styleguide#!#04-10" target="_blank">https://angular.io/styleguide#!#04-10</a>  
 `core` - constants core module <a href="https://angular.io/styleguide#!#04-11" target="_blank">https://angular.io/styleguide#!#04-11</a>  
 
-For more details on how to structure you app check https://angular.io/styleguide#!#04-06
+**For more details** on how to structure you app check https://angular.io/styleguide#!#04-06
 
 ## How to start
 
