@@ -19,10 +19,10 @@ This is a sample project that represents the modular folder structure of angular
    │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───shared.module.ts  
    └───app.module.ts 
 	 
-`components` - constants all simple(non feature) components like home, about, not-found, etc
-`features` - constants features module https://angular.io/styleguide#!#04-09
-`shared` - constants shared module https://angular.io/styleguide#!#04-10
-`core` - constants core module https://angular.io/styleguide#!#04-11 
+`components` - constants all simple(non feature) components like home, about, not-found, etc    
+`features` - constants features module https://angular.io/styleguide#!#04-09  
+`shared` - constants shared module https://angular.io/styleguide#!#04-10  
+`core` - constants core module https://angular.io/styleguide#!#04-11   
 
 For more details on how to structure you app check https://angular.io/styleguide#!#04-06
 
