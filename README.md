@@ -4,21 +4,20 @@ This is a sample project that represents the modular folder structure of angular
 
 ## Project structure
 
- app
-   ├───components
-   │   ├───home
-   │   ├───not-found
-	 │   └───components.module.ts
-   ├───core
-	 │   └───core.module.ts
-   ├───features
-   │   └───lazy
-	 │			 └───lazy.module.ts
-	 │   
-   ├───shared
-	 │	 └───shared.module.ts
-   │
-   └───app.module.ts 	 
+ app  
+   ├───components  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───home  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───not-found  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───components.module.ts  
+   ├───core  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───core.module.ts  
+   ├───features  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy  
+   │			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy.module.ts  
+   │   
+   ├───shared  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───shared.module.ts  
+   └───app.module.ts 
 	 
 `components` - constants all simple(non feature) components like home, about, not-found, etc
 `features` - constants features module https://angular.io/styleguide#!#04-09
@@ -27,7 +26,13 @@ This is a sample project that represents the modular folder structure of angular
 
 For more details on how to structure you app check https://angular.io/styleguide#!#04-06
 
+## How to start
+
+`git cline https://github.com/kuncevic/angular-modular-project-structure`
+`npm install` or `yarn`
+
 ## Bundle Analyzer
+
 To run bundle analyzer run `npm run analyze`
 
 ## This app is build with angular-cli
