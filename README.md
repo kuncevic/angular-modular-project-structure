@@ -28,7 +28,7 @@ For more details on how to structure you app check https://angular.io/styleguide
 
 ## How to start
 
-`git cline https://github.com/kuncevic/angular-modular-project-structure`
+`git cline https://github.com/kuncevic/angular-modular-project-structure`  
 `npm install` or `yarn`
 
 ## Bundle Analyzer
