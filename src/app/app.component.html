@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<p>See details how to structure the poject <a href="https://angular.io/styleguide#!#04-06" target="_blank">https://angular.io/styleguide#!#04-06</a> </p>
+<a [routerLink]="['/']">Eager Module(Home)</a>
+<br />
+<a [routerLink]="['lazy']">Lazy Module</a>
+
+<h3>Current Route:</h3>
+<router-outlet></router-outlet>
