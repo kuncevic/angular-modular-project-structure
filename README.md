@@ -13,16 +13,16 @@ This is a sample project that represents the modular folder structure of angular
    │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───core.module.ts  
    ├───features  
    │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy  
-   │			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy.module.ts  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy.module.ts  
    │   
    ├───shared  
    │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───shared.module.ts  
    └───app.module.ts 
 	 
-`components` - constants simple components like home, about, not-found, etc (**not for feature or shared components**)  
-`features` - constants features module <a href="https://angular.io/styleguide#!#04-09" target="_blank">https://angular.io/styleguide#!#04-09</a>  
-`shared` - constants shared module <a href="https://angular.io/styleguide#!#04-10" target="_blank">https://angular.io/styleguide#!#04-10</a>  
-`core` - constants core module <a href="https://angular.io/styleguide#!#04-11" target="_blank">https://angular.io/styleguide#!#04-11</a>  
+`components` - contains simple components like home, about, not-found, etc (**not for feature or shared components**)  
+`features` - contains features module <a href="https://angular.io/styleguide#!#04-09" target="_blank">https://angular.io/styleguide#!#04-09</a>  
+`shared` - contains shared module <a href="https://angular.io/styleguide#!#04-10" target="_blank">https://angular.io/styleguide#!#04-10</a>  
+`core` - contains core module <a href="https://angular.io/styleguide#!#04-11" target="_blank">https://angular.io/styleguide#!#04-11</a>  
 
 **For more details** on how to structure you app check https://angular.io/styleguide#!#04-06
 
