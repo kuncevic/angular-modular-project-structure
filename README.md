@@ -20,11 +20,11 @@ This is a sample project that represents the modular folder structure of angular
    └───app.module.ts 
 	 
 `components` - contains simple components like home, about, not-found, etc (**not for feature or shared components**)  
-`features` - contains features module <a href="https://angular.io/styleguide#!#04-09" target="_blank">https://angular.io/styleguide#!#04-09</a>  
-`shared` - contains shared module <a href="https://angular.io/styleguide#!#04-10" target="_blank">https://angular.io/styleguide#!#04-10</a>  
-`core` - contains core module <a href="https://angular.io/styleguide#!#04-11" target="_blank">https://angular.io/styleguide#!#04-11</a>  
+`features` - contains features module <a href="https://angular.io/guide/styleguide#style-04-09" target="_blank">https://angular.io/guide/styleguide#style-04-09</a>  
+`shared` - contains shared module <a href="https://angular.io/guide/styleguide#style-04-10" target="_blank">https://angular.io/guide/styleguide#style-04-10</a>  
+`core` - contains core module <a href="https://angular.io/guide/styleguide#style-04-11" target="_blank">https://angular.io/guide/styleguide#style-04-11</a>  
 
-**For more details** on how to structure you app check https://angular.io/styleguide#!#04-06
+**For more details** on how to structure you app check https://angular.io/guide/styleguide#!#04-06
 
 ## How to start
 
