@@ -28,7 +28,7 @@ This is a sample project that represents the modular folder structure of angular
 
 ## How to start
 
-`git cline https://github.com/kuncevic/angular-modular-project-structure`  
+`git clone https://github.com/kuncevic/angular-modular-project-structure`  
 `npm install` or `yarn`
 
 ## Bundle Analyzer
