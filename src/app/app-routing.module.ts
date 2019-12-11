@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'lazy',
-    loadChildren: './features/lazy/lazy.module#LazyModule'
+    loadChildren: () => import('./features/lazy/lazy.module').then(mod => mod.LazyModule),
   },
   {
     path: 'not-found',
