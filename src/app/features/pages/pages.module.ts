@@ -13,4 +13,4 @@ import { NotFoundComponent } from './';
     NotFoundComponent
   ]
 })
-export class ComponentsModule { }
+export class PagesModule { }
