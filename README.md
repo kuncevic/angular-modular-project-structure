@@ -1,6 +1,37 @@
-# AngularModularProjectStructure
+# Angular Modular Project Structure
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.5.
+This is a sample project that represents the modular folder structure of angular application with bundle analyzer build-in
+
+## Modules structure
+
+ app  
+   ├───features  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───lazy  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───lazy.module.ts  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───pages  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───home  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───not-found  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───pages.module.ts   
+   │   
+   ├───shared  
+   │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───shared.module.ts  
+   └───app.module.ts 
+	 
+`features` - contains features module [https://angular.io/guide/feature-modules](https://angular.io/guide/feature-modules)</a>  
+`shared` - contains shared module [https://angular.io/guide/sharing-ngmodules](https://angular.io/guide/sharing-ngmodules)</a>
+  
+`*core` - since angular v6 core module is not recommended anymore <a href="https://github.com/angular/angular/issues/17825" target="_blank">https://github.com/angular/angular/issues/17825</a>  
+
+**For more details** on how to structure you app check [https://angular.io/guide/styleguide#flat](https://angular.io/guide/styleguide#flat)
+
+## How to start
+
+`git clone https://github.com/kuncevic/angular-modular-project-structure`  
+`npm install` or `yarn`
+
+## Bundle Analyzer
+
+To run bundle analyzer run `npm run analyze`
 
 ## Development server
 
